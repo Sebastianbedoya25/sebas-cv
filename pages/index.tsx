@@ -1,11 +1,13 @@
-import Button from "@/components/Button";
+import React from 'react';
+import LeftPanel from '../components/LeftPanel';
 
-const paginaPrincipal = () => {
-  return <div>
-    <span className="text-cyan-500 bg-slate-800">
-        Hola desde mi cv
-      </span>
-    {/* <div><Button /></div> */}
+const Home: React.FC = () => {
+  return (
+    <div className="flex">
+      <LeftPanel />
+      {/* Aquí colocarás el contenido central con scroll vertical */}
     </div>
-}
-export default paginaPrincipal;
+  );
+};
+
+export default Home;
