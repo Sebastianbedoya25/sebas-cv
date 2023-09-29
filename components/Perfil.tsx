@@ -11,7 +11,7 @@ interface datosPerfil {
 const Perfil: React.FC<datosPerfil> = ({nombre, rol}) => {
 
   return (
-    <div className="bg-fondo rounded-lg">
+    <div className="bg-fondo rounded-lg w-full">
       <h2 className="text-azul text-xl font-bold mb-2 font-Epilogue">Información Personal</h2>
             <img
                 src="profile.JPG"
