@@ -16,16 +16,13 @@ const Perfil: React.FC<datosPerfil> = ({nombre, rol}) => {
             <img
                 src="profile.JPG"
                 alt="Foto del estudiante"
-                className="w-40 rounded-full mb-4 "
+                className="w-28 rounded-full mb-4 "
             />
             
             <p className="text-blanco font-bold font-Poppins">{nombre}</p>
             <p className="text-blanco font-Poppins">{rol}</p>
+            
       
-      <div className="text-center p-2">
-        {/* Llamamos al diálogo */}
-        <InfoAdicional />
-      </div>
     </div>
   );
 };
