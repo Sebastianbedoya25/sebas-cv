@@ -14,12 +14,12 @@ const InfoAdicional = () => {
 
   return (
     <div
-      className="bg-fondo rounded-lg"
+      className="rounded-lg"
       onMouseLeave={handleMouseLeave}
     >
       {/* Botón "Ver Más" */}
       
-      <span className="text-azul hover:text-blanco rounded-lg "
+      <span className="text-fondo hover:text-blanco rounded-lg font-Epilogue"
       onMouseEnter={handleMouseEnter}
       >
         Ver Más
@@ -29,9 +29,9 @@ const InfoAdicional = () => {
       {/* Diálogo de Información Adicional */}
       {isDialogOpen && (
         <div className="bg-fondo rounded-lg">
-          <h2 className="text-azul font-Epilogue text-xl font-bold mb-4">Información Adicional</h2>
+          <h2 className="text-azul font-Epilogue p-2 text-xl font-bold mb-4">Información Adicional</h2>
         <div>
-      <p className="bg-blanco text-fondo font-Poppins mt-4 py-2 px-4 rounded-lg text-left ">
+      <p className="bg-fondo text-blanco font-Poppins p-2 rounded-lg text-left ">
         Soy estudiante de Ingeniería de Sistemas de la Universidad de Antioquia del séptimo semestre, técnico en sistemas, con experiencia en mesa de ayuda en el área de TI e ingeniería de software con ABAP, automatizador de pruebas y pruebas de performance. Conozco la importancia del trabajo en equipo, poseo capacidad de adaptación, soy comprometido, perseverante, dispuesto al aprendizaje. Soy dedicado en mis funciones para poder  cumplir las metas del proyecto.
       </p>
 

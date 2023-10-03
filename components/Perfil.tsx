@@ -14,9 +14,9 @@ const Perfil: React.FC<datosPerfil> = ({nombre, rol}) => {
     <div className="bg-fondo rounded-lg w-full">
       <h2 className="text-azul text-xl font-bold mb-2 font-Epilogue">Información Personal</h2>
             <img
-                src="profile.JPG"
+                src="profile_small.JPG"
                 alt="Foto del estudiante"
-                className="w-28 rounded-full mb-4 "
+                className="w-32 rounded-full mb-4 "
             />
             
             <p className="text-blanco font-bold font-Poppins">{nombre}</p>
