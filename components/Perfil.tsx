@@ -1,7 +1,6 @@
 // components/Profile.tsx
 
 import React from 'react';
-import InfoAdicional from './InfoAdicional';
 
 interface datosPerfil {
   nombre: string;

@@ -29,10 +29,10 @@ const InfoAdicional = () => {
       {/* Diálogo de Información Adicional */}
       {isDialogOpen && (
         <div className="bg-fondo rounded-lg">
-          <h2 className="text-azul font-Epilogue p-2 text-xl font-bold mb-4">Información Adicional</h2>
+          <h2 className="text-azul font-Epilogue pl-4 text-xl font-bold pt-6">Información Adicional</h2>
         <div>
-      <p className="bg-fondo text-blanco font-Poppins p-2 rounded-lg text-left ">
-        Soy estudiante de Ingeniería de Sistemas de la Universidad de Antioquia del séptimo semestre, técnico en sistemas, con experiencia en mesa de ayuda en el área de TI e ingeniería de software con ABAP, automatizador de pruebas y pruebas de performance. Conozco la importancia del trabajo en equipo, poseo capacidad de adaptación, soy comprometido, perseverante, dispuesto al aprendizaje. Soy dedicado en mis funciones para poder  cumplir las metas del proyecto.
+      <p className="bg-fondo text-blanco p-4 rounded-lg text-left text-medium font-Poppins">
+        Soy estudiante de Ingeniería de Sistemas de la Universidad de Antioquia del séptimo semestre, técnico en sistemas, con experiencia en mesa de ayuda en el área de TI e ingeniería de software con ABAP, automatizador de pruebas y pruebas de performance. Conozco la importancia del trabajo en equipo, poseo capacidad de adaptación, soy comprometido, perseverante, dispuesto al aprendizaje. Soy dedicado en mis funciones para poder cumplir las metas del proyecto.
       </p>
 
       </div>

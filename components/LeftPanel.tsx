@@ -23,7 +23,7 @@ const LeftPanel = () => {
 
     
     return (
-      <div className="" >
+      <div className="fixed" >
         
         <Perfil nombre={"SEBASTIÁN BEDOYA RESTREPO"} rol={"Ingeniero de sistemas"}/>
         <Contacto ciudad={"La Ceja, ANT"} telefono={"(+57) 3142474248"} email={"sebastianbedoya25@gmail.com"}/>
