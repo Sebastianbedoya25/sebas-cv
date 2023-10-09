@@ -13,11 +13,11 @@ const CenterPanel = () => {
     ];
 
     const estudiosData = [
-        { titulo: 'Secundaria', fechaEstudio: '2013', entidad: 'I. E. La Paz', grado: 'Bachiller técnico'},
-        { titulo: 'Técnica', fechaEstudio: '2012 - 2013', entidad: 'Abogados Educando S.A.S', grado: 'Técnico en sistemas'},
-        { titulo: 'Tecnológica', fechaEstudio: '2014 - 2016', entidad: 'Universidad de Antioquia', grado: 'Tecnólogo en Regencia de Farmacia'},
-        { titulo: 'Universitaria', fechaEstudio: '2017 - Actualidad', entidad: 'Universidad de Antioquia', grado: 'Ingeniero de Sistemas'},
-        { titulo: 'Curso', fechaEstudio: '2020', entidad: 'Universidad Pontificia Bolivariana', grado: 'Introducción al desarrollo web'},
+        { titulo: 'Secundaria', fechaEstudio: '2013', entidad: 'I. E. La Paz', grado: 'Bachiller técnico' },
+        { titulo: 'Técnica', fechaEstudio: '2012 - 2013', entidad: 'Abogados Educando S.A.S', grado: 'Técnico en sistemas' },
+        { titulo: 'Tecnológica', fechaEstudio: '2014 - 2016', entidad: 'Universidad de Antioquia', grado: 'Tecnólogo en Regencia de Farmacia' },
+        { titulo: 'Universitaria', fechaEstudio: '2017 - Actualidad', entidad: 'Universidad de Antioquia', grado: 'Ingeniero de Sistemas' },
+        { titulo: 'Curso', fechaEstudio: '2020', entidad: 'Universidad Pontificia Bolivariana', grado: 'Introducción al desarrollo web' },
     ];
 
 
@@ -49,7 +49,7 @@ const CenterPanel = () => {
                 <Conocimientos conocimientos={conocimientosData} />
             </div>
 
-            
+
             <div className="bg-fondo text-azul text-3xl font-bold text-center p-4 col-start-1 col-end-3 font-Epilogue">Estudios</div>
             <div className="grid justify-center bg-blanco pt-4 ">
                 <Estudios data={estudiosData} />

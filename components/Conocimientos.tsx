@@ -1,4 +1,3 @@
-
 interface Conocimiento {
     titulo: string;
     imagenSrc: string;
@@ -11,7 +10,7 @@ interface ConocimientosData {
 
 const Conocimientos: React.FC<ConocimientosData> = ({ conocimientos }) => {
     return (
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 p-4">
             {conocimientos.map((conocimiento, index) => (
                 <div key={index} className="p-4 shadow-md rounded-lg bg-azul">

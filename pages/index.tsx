@@ -10,8 +10,6 @@ const Home = () => {
       <div className='bg-blanco p-2 col-start-3 col-end-12'><CenterPanel /></div>
       <div className='bg-fondo p-2 grid col-start-12'><RightPanel /></div>
     </div>
-    
-    
   );
 };
 

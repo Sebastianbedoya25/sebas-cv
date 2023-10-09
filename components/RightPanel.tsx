@@ -1,6 +1,5 @@
 import Links from "./Links";
 
-
 const RightPanel = () => {
 
   const linksData = [
