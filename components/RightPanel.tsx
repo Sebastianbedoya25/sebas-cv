@@ -1,35 +1,24 @@
-const RightPanel = () => {
-    return (
-      <div className="fixed">
-        {/* Contenido del panel derecho */}
-        <div className="bg-fondo rounded-lg">
-            <div className="bg-fondo rounded-lg ">
-                <h2 className="text-azul font-Epilogue text-xl font-bold align-center">Links</h2>
-            <div>
-            <p className="bg-blanco text-fondo font-Poppins mt-4 py-2 px-4 rounded-lg text-left">
-              Whatsapp
-            </p>
-            <p className="bg-blanco text-fondo font-Poppins mt-4 py-2 px-4 rounded-lg text-left">
-              Facebook
-            </p>
-            <p className="bg-blanco text-fondo font-Poppins mt-4 py-2 px-4 rounded-lg text-left">
-              Telegram
-            </p>
-            <p className="bg-blanco text-fondo font-Poppins mt-4 py-2 px-4 rounded-lg text-left">
-              Instagram
-            </p>
-            <p className="bg-blanco text-fondo font-Poppins mt-4 py-2 px-4 rounded-lg text-left">
-              Linkedin
-            </p>
-        </div>
-      
+import Links from "./Links";
 
-        </div>
-      )
-      
-    </div>
+
+const RightPanel = () => {
+
+  const linksData = [
+    { enlace: 'https://www.linkedin.com/in/Sebastianbedoya25', icono: 'linkedin.png', textAltIcono: 'icono linkedin' },
+    { enlace: 'https://wa.me/3142474248', icono: 'whatsapp.png', textAltIcono: 'icono whatsapp' },
+    { enlace: 'https://www.facebook.com/Sebasbedoya05', icono: 'facebook.png', textAltIcono: 'icono facebook' },
+    { enlace: 'https://www.instagram.com/sbdrpo', icono: 'instagram.png', textAltIcono: 'icono instagram' },
+    { enlace: 'https://t.me/sbdrpo', icono: 'telegram.png', textAltIcono: 'icono telegram' },
+  ];
+
+  return (
+    <div className="fixed grid justify-items-center">
+      <h2 className="text-azul font-Epilogue text-xl font-bold text-center">Contacto</h2>
+      <div>
+        <Links links={linksData} />
       </div>
-    );
-  };
-  
-  export default RightPanel;
+    </div>
+  );
+};
+
+export default RightPanel;
